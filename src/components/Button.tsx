@@ -14,6 +14,10 @@ const StyledButton = styled.button`
   &:hover {
     background-color: #444;
   }
+
+  @media (max-width: 600px) {
+    width: 50%;
+  }
 `;
 
 const Button = ({ onToggleGuide }: { onToggleGuide: () => void }) => {
